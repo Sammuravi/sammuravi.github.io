@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first Solo Web Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link href="Styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- 1) Navegation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">BRAND NAME</a> <!-- The name isn´t final -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact Us</a>
+                    </li>
+                    </ul>
+              </div>
+            </div>
+        </nav> 
+
+        <!-- 2) Header -->
+        <div class="container-fluid" id="header">
+            <h1 style="margin-bottom: 5%;">My First Solo Web Page</h1>
+        </div>
+        
+        <!-- 3) Containers -->
+        <div class="container mt-5">
+            <!-- 3.1) Row 1 -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card mb-3">
+                        <img src="images/game2.jpg" class="card-img-top" alt="playstation">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Store</h5>
+                            <p class="card-text">Release date and more</p>
+                            <a href="store.html" class="btn btn-primary stretched-link">more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mb-3">
+                        <img src="images/game3.jpg" class="card-img-top" alt="nintendo">
+                        <div class="card-body">
+                            <h5 class="card-title">About Us</h5>
+                            <p class="card-text">learn more about us...</p>
+                            <a href="about.html" class="btn btn-primary stretched-link">more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mb-3">
+                        <img src="images/game4.jpg" class="card-img-top" alt="xbox">
+                        <div class="card-body">
+                            <h5 class="card-title">Contact</h5>
+                            <p class="card-text">Allways available for you</p>
+                            <a href="contacts.html" class="btn btn-primary stretched-link">more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3.1) Row 2 -->
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">One Site</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">One Place</h6>
+                  <p class="card-text">Preparing everything to provide the best service on the market!</p>
+                  <a href="#" class="card-link">Facebook</a>   <!-- Social media links -->
+                  <a href="#" class="card-link">Instagram</a>  <!-- Social media links -->
+                </div>
+            </div>
+
+        </div>  
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link href="Styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+         <!-- 1) Navegation Bar -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">BRAND NAME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Layout Container -->
+        <div id="layout-container">           
+            
+            <!-- 2) Header -->
+            <!-- Header Row -->
+            <div class="row">
+                <!-- Left Hand Hand Column -->
+                <div class="left-column">
+                    <div id="content-area" id="left-column-contact">
+                        <h3>Help</h3>
+                        <p>You can contact us through our email or social media to learn more about this project.</p>
+                        <ul>
+                            <li href="#">justatest@brandname.mail</li>  <!-- mail sender links -->
+                            <li href="#">Facebook</li>   <!-- Social media links -->
+                            <li href="#">Instagram</li>  <!-- Social media links -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right hand Hand Column -->
+                <div class="right-column" id="right-col-contact"></div> 
+            </div>
+
+            <!-- Send message to our mail
+            <div class="contact-form comment-form clearfix">
+                <h4>Send us your feedback</h4>
+                <form class="contact-form" name="contact-form" method="post" action="/pt/api/0/sendEmailContact">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" required="required" id="inputName" name="inputName" placeholder="Nome*">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input type="email" class="form-control" required="required" id="inputEmail" name="inputEmail" placeholder="Email*">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="inputWebsite" name="inputWebsite" placeholder="Website">
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <textarea name="message" required="required" class="form-control" rows="7" id="inputMessage" placeholder="Mensagem*"></textarea>
+                            </div>
+                        </div>
+                        <div id="resultEmail" class="col-sm-12">
+                            <div class="alert hidden" role="alert"></div>
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="wpcf7-form-control wpcf7-submit">Submeter</button>
+                    </div>
+                </form>
+            </div>
+            -->
+        </div>
+    </body>
+</html>
